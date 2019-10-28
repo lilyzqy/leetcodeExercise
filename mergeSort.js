@@ -1,6 +1,6 @@
 function mergeSort(array) {
 
-  /* edge case when array length is 1 */
+  /* base case when array length is 1 */
   if(array.length <= 1) {
     return array;
   }
